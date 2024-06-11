@@ -1,0 +1,62 @@
+.holiday-calender{
+    display: flex;
+}
+.monthly-holidays{
+    border-left: 1px dashed #727272;
+}
+.holidays{
+    height: 20%;
+    width: 240px;
+    border-bottom: 1px dashed #FFB9B9;
+    padding: 0px 35px 0px 17px;
+}
+.month{
+    width: 99px;
+    height: 36px;
+    margin: auto;
+    background: #FFCFCF;
+    border-radius: 18px;
+}
+.month-name{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 7px;
+}
+.details{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.actions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+.vector{
+    display: flex;
+    gap: 9px;
+}
+.delete{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 9px;
+    border-radius: 25px;
+}
+.edit{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 9px;
+    border-radius: 25px;
+    display: inline-grid;
+    align-content: space-evenly;
+}
+.date{
+    font-size: 16px;
+    color: #999999;
+}
+.name{
+    font-size: 18px;
+    color: #333333;
+}
